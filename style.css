@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(200,200,200,0.8); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(200,200,200,0.4);
+}
+
+body {
+	font-family: arial;
+	background-color: tan;
+}
+
+.card {
+	background-color: white;
+	position: relative;
+	border: 2px solid black;
+	width: 325;
+	height: 195;
+	box-shadow: 4px 4px 2px grey;
+	font-size: 0.8em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.authorYear {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
+
+.source {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+
+.link {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
+.duplicate {
+	position: absolute;
+	bottom: 4px;
+	right: 24px;
+	cursor: pointer;
+}
+
+.close {
+	position: absolute;
+	bottom: 4px;
+	right: 40px;
+	cursor: pointer;
+}
+
+.title {
+	margin-top: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+.notes {
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
