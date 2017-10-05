@@ -11,16 +11,67 @@
 body {
 	font-family: arial;
 	background-color: tan;
+	padding-top: 50px;
+}
+
+button, input, select {
+	height: 30px;
+}
+
+#topBar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 30px;
+	width: 100%;
+	background-color: saddlebrown;
+	color: lightgrey;
+	font-size: 0;
+	margin: 0;
+	z-index: 5;
+}
+
+#title {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#sheetKey {
+	width: 400px;
+}
+
+#sheetName {
+	width: 100px;
+}
+
+#savedProjects {
+	width: 100px;
+}
+
+.grayText {
+	color: gray;
+}
+
+#cards {
+	position: absolute;
+	top: 40px;
 }
 
 .card {
 	background-color: white;
-	position: relative;
+	position: absolute;
 	border: 2px solid black;
 	width: 325;
 	height: 195;
 	box-shadow: 4px 4px 2px grey;
 	font-size: 0.8em;
+}
+
+.front {
+	z-index: 10;
 }
 
 a {
@@ -60,10 +111,18 @@ a {
 	cursor: pointer;
 }
 
+.colorBox {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
+}
+
 .title {
 	margin-top: 40px;
 	text-align: center;
 	font-style: italic;
+	font-size: 0.9em;
 }
 
 .notes {
@@ -71,4 +130,47 @@ a {
 	text-align: center;
 	width: 80%;
 	margin: auto;
+	font-size: 0.7em;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.dodgerblue {
+	background-color: dodgerblue;
+}
+
+.mediumseagreen {
+	background-color: mediumseagreen;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.slateblue {
+	background-color: slateblue;
+}
+
+.violet {
+	background-color: violet;
+}
+
+.lightgray {
+	background-color: lightgray;
+}
+
+.white {
+	background-color: white;
+}
+
+.box {
+	display: inline-block;
+	height: 12px;
+	width: 16px;
 }

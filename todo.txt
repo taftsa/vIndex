@@ -1,0 +1,7 @@
+Better file management
+-Save HTML, not sheet key (or both?)
+-Saving color?
+
+z-index
+
+More customization
